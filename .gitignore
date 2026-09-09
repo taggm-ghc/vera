@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Local server logs / scratch
+*.log
+uvicorn*.txt
+runuvicorn*.*
+
+# Windows "mark of the web" alternate-data-stream cruft (WSL)
+*:Zone.Identifier
+
+# Private / non-published material (anything marked *-prv)
+*-prv.*
+*-prv/
